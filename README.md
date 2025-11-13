@@ -1,4 +1,4 @@
-# FULL_WORKING_WITH_UI
+# E-Commerce Chatbot
 
 ## What this project does
 One-sentence summary: e.g., "This project demonstrates a UI that accepts X and returns Y, built in Python."
@@ -45,4 +45,4 @@ One-sentence summary: e.g., "This project demonstrates a UI that accepts X and r
 - Improve UX & add more datasets
 
 ## Author
-Your Name — your.email@example.com
+Your Name — psanjanav@gmail.com
