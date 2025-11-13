@@ -1,26 +1,48 @@
-# E-Commerce Data Chatbot (Gradio + Gemini / OpenRouter)
+# FULL_WORKING_WITH_UI
 
-This project is a **Gradio-based AI app** that enables users to **chat with their e-commerce dataset** in natural language.  
-It integrates **LLMs (Gemini via Google AI Studio / OpenRouter)** with **LangChain** to interpret queries, analyze multiple relational tables (customers, products, orders, etc.), and respond intelligently with insights.
+## What this project does
+One-sentence summary: e.g., "This project demonstrates a UI that accepts X and returns Y, built in Python."
 
----
+## How to run (local)
+1. Clone the repo:
+   git clone https://github.com/<YourUsername>/FULL_WORKING_WITH_UI.git
+2. Enter folder:
+   cd FULL_WORKING_WITH_UI
+3. (Optional) Create virtual environment:
+   python -m venv venv
+   source venv/bin/activate    # or .\venv\Scripts\Activate on Windows
+4. Install dependencies:
+   pip install -r requirements.txt
+5. Run:
+   - If app is Streamlit: `streamlit run app.py` (or `streamlit run FULL_WORKING_WITH_UI.ipynb` if you converted it)
+   - If Gradio: `python app.py`
+   - If notebook demo only: open `FULL_WORKING_WITH_UI.ipynb` with Jupyter and run the relevant cells.
 
-##  How to Run
+## Libraries / Technologies used
+- Python 3.x
+- pandas
+- numpy
+- streamlit / gradio / flask (mention whichever is used)
+- scikit-learn / transformers (mention if any model used)
+- Any other packages used: list them here or ensure they are in `requirements.txt`
 
-#1 Clone the repository
-```bash
-git clone https://github.com/<your-username>/ecommerce-data-chatbot.git
-cd ecommerce-data-chatbot
+## Brief architecture / design decisions
+- Front-end: [Streamlit/Gradio] — simple browser-based UI to interact with model/code.
+- Back-end: pure Python notebook code performing [data processing/model inference].
+- Data: sample data stored in `assets/` (if applicable).
 
+## How to demo
+1. Start the app with the command above.
+2. Open the browser at the address shown (e.g., `http://localhost:8501`).
+3. Follow these steps in the UI to reproduce the demo:
+   - Step A: Upload sample file or fill inputs
+   - Step B: Press “Process” / “Run”
+   - Step C: Observe outputs/results
 
-2️ Install Dependencies
-pip install -r requirements.txt  
+## Next steps (optional)
+- Containerize with Docker
+- Add authentication and tests
+- Improve UX & add more datasets
 
-3️ Add Your API Key(s) :Create a .env file in the root folder and add your Gemini or OpenRouter key (⚠️ Do not commit it to GitHub):
-GOOGLE_API_KEY="your_gemini_api_key_here"
-# or
-OPENROUTER_API_KEY="your_openrouter_key_here"
-
-4️ Run the App
-Once running, open the Gradio interface link (usually http://127.0.0.1:7860/) and start chatting with your data!
- python app.py
+## Author
+Your Name — your.email@example.com
