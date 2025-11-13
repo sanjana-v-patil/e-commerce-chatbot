@@ -472,7 +472,7 @@ from langchain.agents import initialize_agent
 # 2️⃣ Configure Gemini API key
 # ----------------------------------------------------------------------------
 # Make sure you have your key from Google AI Studio: https://aistudio.google.com/apikey
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCTt1T-drIQPAKEQmvF-vT1SQ-VsA0nxN0"  # ← Replace with your actual key (keep it private)
+os.environ["GOOGLE_API_KEY"] = "ur api key"  # ← Replace with your actual key (keep it private)
 
 # ----------------------------------------------------------------------------
 # 3️⃣ Initialize Gemini LLM
